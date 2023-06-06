@@ -6,16 +6,16 @@
 
 <!-- bootstrap-5.2.0 -->
 <!-- <link rel="stylesheet" type="text/css" href="themes/website/assets/css/bootstrap.min.css"> -->
-<link rel="stylesheet" type="text/css" href="/themes/website/assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
 
 <!-- font-awesome-5.15.4 -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <!-- style -->
 <!-- <link rel="stylesheet" type="text/css" href="themes/website/assets/css/style.css"> -->
-<link rel="stylesheet" type="text/css" href="/themes/website/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
-<link rel="shortcut icon" href="/themes/website/assets/img/2022-08-22_143612.png" type="image/x-icon">
+<link rel="shortcut icon" href="/assets/img/2022-08-22_143612.png" type="image/x-icon">
 
 <!-- bootstrap-5.2.0 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
