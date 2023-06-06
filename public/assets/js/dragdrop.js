@@ -99,6 +99,11 @@ function getInputValue(inputElement) {
     return new Promise((resolve) => {
         inputElement.addEventListener("keydown", handleInputChange);
 
+        setTimeout(() => {
+            document.addEventListener("click", handleOutsideClick);
+        }, 1000); // 1 second delay
+
+
         function handleInputChange(event) {
             if (event.key === "Enter") {
                 cleanup();
@@ -106,8 +111,16 @@ function getInputValue(inputElement) {
             }
         }
 
+        function handleOutsideClick(event) {
+            if (!inputElement.contains(event.target)) {
+                cleanup();
+                resolve(inputElement.value);
+            }
+        }
+
         function cleanup() {
             inputElement.removeEventListener("keydown", handleInputChange);
+            document.removeEventListener("click", handleOutsideClick);
         }
     });
 }
